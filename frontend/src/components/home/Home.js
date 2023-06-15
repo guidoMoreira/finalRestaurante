@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
-import SalesChart from '../saleschart/SalesChart';
+
 
 const Home = () => {
   return (
@@ -15,8 +15,7 @@ const Home = () => {
             <p>Placeholder para BalanceCard</p>
           </div>
           <div className="dashboard-section">
-            <h2>Sales Chart</h2>
-            <SalesChart />
+
           </div>
           <div className="dashboard-section">
             <h2>Product Table</h2>

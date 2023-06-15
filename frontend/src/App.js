@@ -1,16 +1,14 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import Home from './components/home/Home';
-import Products from './components/products/Products';
-import Sales from './components/sales/Sales';
+import AddProduct from './pages/addProd';
 
-const App = () => {
+function App () {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/products" component={Products} />
-        <Route path="/sales" component={Sales} />
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/addprod" element={<AddProduct/>} />
       </Routes>
     </Router>
   );
