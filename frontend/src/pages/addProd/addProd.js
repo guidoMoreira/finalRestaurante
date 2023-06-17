@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Navbar from '../components/navbar/Navbar';
-import Sidebar from '../components/sidebar/Sidebar';
+import Navbar from '../../components/navbar/Navbar';
+import Sidebar from '../../components/sidebar/Sidebar';
 
 function AdicionarProduto() {
   const [nome, setNome] = useState('');

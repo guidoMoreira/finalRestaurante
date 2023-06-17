@@ -49,7 +49,21 @@ const Sidebar = () => {
                 <div id="collapseVendas" className="collapse" aria-labelledby="headingVendas"
                     data-parent="#accordionSidebar">
                     <div className="bg-white py-2 collapse-inner rounded">
-                        <a className="collapse-item" href="addVenda.html">Cadastrar Vendas</a>
+                        <a className="collapse-item" href="addVenda">Cadastrar Vendas</a>
+                    </div>
+                </div>
+            </li>
+
+            <li className="nav-item">
+                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVendas"
+                    aria-expanded="true" aria-controls="collapseCliente">
+                    <i className="fas fa-fw fa-user"></i>
+                    <span>Clientes</span>
+                </a>
+                <div id="collapseCliente" className="collapse" aria-labelledby="headingCliente"
+                    data-parent="#accordionSidebar">
+                    <div className="bg-white py-2 collapse-inner rounded">
+                        <a className="collapse-item" href="addCliente">Cadastrar Cliente</a>
                     </div>
                 </div>
             </li>

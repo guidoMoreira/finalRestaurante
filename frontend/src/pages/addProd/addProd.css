@@ -1,0 +1,21 @@
+.container {
+    display: flex; 
+  }
+  
+  .navbar-sidebar-container {
+    display: flex;
+  }
+  
+  .navbar {
+    flex: 0 0 auto;
+  }
+  
+  .sidebar {
+    flex: 0 0 auto;
+  }
+  
+  .content {
+    flex: 1 1 auto;
+    /* Adicione estilos adicionais para o conteúdo, se necessário */
+  }
+  
