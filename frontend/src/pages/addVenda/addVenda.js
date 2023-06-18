@@ -31,6 +31,9 @@ function AdicionarVenda() {
         valor_total: 0,
       });
 
+      localStorage.setItem('idPedido', response.data.id);
+      localStorage.setItem('cpfCliente', cliente);
+
       setMensagem('Produto cadastrado com sucesso!');
       setSucesso(true);
 
@@ -42,7 +45,7 @@ function AdicionarVenda() {
 
       console.log(response.data); // Exemplo: exibir a resposta do servidor
 
-      navigate(`/addProdVenda?id=${response.data.id}`, {state:{id:response.data.id}});
+      navigate('/addProdVenda');
 
     } catch (error) {
       setMensagem('Ocorreu um erro ao cadastrar o produto.');
