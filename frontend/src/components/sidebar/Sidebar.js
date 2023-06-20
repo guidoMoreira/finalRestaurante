@@ -27,7 +27,7 @@ const Sidebar = () => {
             </div>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a className="nav-link collapsed" href="./addProd#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i className="fas fa-fw fa-cubes"></i>
                     <span>Produtos</span>
@@ -41,7 +41,7 @@ const Sidebar = () => {
             </li>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVendas"
+                <a className="nav-link collapsed" href="./addVenda#" data-toggle="collapse" data-target="#collapseVendas"
                     aria-expanded="true" aria-controls="collapseVendas">
                     <i className="fas fa-fw fa-credit-card"></i>
                     <span>Vendas</span>
@@ -55,7 +55,7 @@ const Sidebar = () => {
             </li>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVendas"
+                <a className="nav-link collapsed" href="./addCliente#" data-toggle="collapse" data-target="#collapseVendas"
                     aria-expanded="true" aria-controls="collapseCliente">
                     <i className="fas fa-fw fa-user"></i>
                     <span>Clientes</span>
